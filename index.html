@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicio García</title>
+   
+<!-- Io Icons -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="portofolio">
+        <header>
+            <nav>
+                <div class="logo">
+                    <h4>Vinicio García</h4>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#" class="slide1 active">Home</a></li>
+                    <li><a href="#" class="slide1">Portafolio</a></li>
+                    <li><a href="#" class="slide1">Sobre mi</a></li>
+                    <li><a href="#" class="slide1">Habilidades</a></li>
+                    <li><a href="#" >Contacto</a></li>
+                </ul>
+                
+                <div class="burguer">
+                    <div class="ingredientes">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                         <div class="line3"></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+    <main>
+<!-- Begin Home  -->
+        <section class="page home">
+            <div class="details">
+                <h1>Soy Vinicio,</h1>
+                <h2>Diseñador gráfico</h2>
+            </div>
+            <div class="botones_inicio">
+                <div id="contratame">CONTRÁTAME</div>
+                <div><a href="docs/curriculoVinicio2020.doc" target="_blank">DESCARGAR HOJA DE VIDA</a></div>
+            </div>
+            <div class="hero">
+                <a href="#">
+                    <img class="model-left" src="img/samurai-left1.png" alt="samurai">
+                    <img class="model-right" src="img/samurai-right2.png" alt="samurai">
+                </a>
+            </div>
+        </section>
+<!-- End Home  -->
+        <div id="categorias">
+            <h2><a href="#" onClick="SearchJobs('todos')">Todos</a> </h2>
+            <h2><a href="#" onClick="SearchJobs('logotipos')">Logotipos</a></h2>
+            <h2><a href="#" onClick="SearchJobs('ilustracion')">Ilustracion</a></h2>
+            <h2><a href="#" onClick="SearchJobs('productos')">Productos</a></h2>
+            <h2><a href="#" onClick="SearchJobs('impresion')">Impresión</a></h2>
+            <h2><a href="#" onClick="SearchJobs('multimedia')">Multimedia</a></h2>
+            <h2><a href="#" onClick="SearchJobs('editorial')">D.Editorial</a></h2>
+            <h2><a href="#" onClick="SearchJobs('fotografia')">Fotografía</a></h2>
+        </div>  
+<!-- Begin Portafolio  -->
+        <section class="page portafolio">   
+            <div class="container" id="container">
+                <div class="gallery-container logotipos w3 h1 " name="logotipos">
+                    <div class="gallery-item logotipo">
+                        <div class="images">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <div class="text">Logotipo</div>
+                    </div>
+                </div>
+                <div class="gallery-container ilustracion w2 h2 ">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/11.jpg" alt="">
+                        </div>
+                        <div class="text">Ilustración</div>
+                    </div>
+                </div>
+                <div class="gallery-container editorial w2  h1">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/5.jpg" alt="">
+                        </div>
+                        <div class="text">D. Editorial</div>
+                    </div>
+                </div>
+                <div class="gallery-container fotografia w2 h2">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/4.png" alt="">
+                        </div>
+                        <div class="text">Fotografía</div>
+                    </div>
+                </div>
+                <div class="gallery-container logotipos h1 w2">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/3.jpg" alt="">
+                        </div>
+                        <div class="text">Logotipo</div>
+                    </div>
+                </div>
+                <div class="gallery-container logotipos h1 w1 ">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/6.jpg" alt="">
+                        </div>
+                        <div class="text">Logotipo</div>
+                    </div>
+                </div>
+                <div class="gallery-container impresion">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/17.png" alt="">
+                        </div>
+                        <div class="text">Impresión</div>
+                    </div>
+                </div>
+                <div class="gallery-container productos">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/8.png" alt="">
+                        </div>
+                        <div class="text">Productos</div>
+                    </div>
+                </div>
+                <div class="gallery-container productos h1 w3 ">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/9.png" alt="">
+                        </div>
+                        <div class="text">Productos</div>
+                    </div>
+                </div>
+                <div class="gallery-container logotipos h2 w1 " data-id='1'>
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/10.png" alt="">
+                        </div>
+                        <div class="text">Logotipo</div>
+                    </div>
+                </div>
+                <div class="gallery-container fotografia">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/2.png" alt="">
+                        </div>
+                        <div class="text">Fotografía</div>
+                    </div>
+                </div>
+                <div class="gallery-container ilustracion">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/12.jpg" alt="">
+                        </div>
+                        <div class="text">Ilustración</div>
+                    </div>
+                </div>
+                <div class="gallery-container productos h1 w3 ">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/13.png" alt="">
+                        </div>
+                        <div class="text">Productos</div>
+                    </div>
+                </div>
+                <div class="gallery-container fotografia">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/14.png" alt="">
+                        </div>
+                        <div class="text">Fotografía</div>
+                    </div>
+                </div>
+                <div class="gallery-container editorial">
+                    <div class="gallery-item w2">
+                        <div class="images">
+                            <img src="img/7.jpg" alt="">
+                        </div>
+                        <div class="text">D. Editorial</div>
+                    </div>
+                </div>
+                <div class="gallery-container impresion">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/16.png" alt="">
+                        </div>
+                        <div class="text">Impresión</div>
+                    </div>
+                </div>
+                <div class="gallery-container impresion h2 w2 ">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/15.jpg" alt="">
+                        </div>
+                        <div class="text">Impresión</div>
+                    </div>
+                </div>
+                <div class="gallery-container fotografia w3 h1 ">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/18.png" alt="">
+                        </div>
+                        <div class="text">Fotografía</div>
+                    </div>
+                </div>
+                <div class="gallery-container banner w3 h1 ">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/19.png" alt="">
+                        </div>
+                        <div class="text">Banner</div>
+                    </div>
+                </div>
+                <div class="gallery-container impresion">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <img src="img/20.png" alt="">
+                        </div>
+                        <div class="text">Impresión</div>
+                    </div>
+                </div>
+                <div class="gallery-container multimedia h1 wv ">
+                    <div class="gallery-item">
+                        <div class="images">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/PgfTbqz04Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="text">Multimedia</div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+<!-- End Portafolio  -->
+
+<!-- Begin Sobre Mi  -->
+        <section class="page sobremi">
+            
+            <div class="containerSobremi">
+                <figure>
+                    <img src="img/foto3.png" alt="fotoDiseñador">
+                </figure>
+                <div id="descripcion">
+                    <div>
+                        <h3>Sobre mi</h3>
+                        <p >Soy diseñador gráfico. Me gradue como ingeniero en la Universidad Central del Ecuador.<span>
+                            Trabajo desde hace mas de 2 años de forma independiente, en proyectos de lenguaje audiovisual.</span>
+                        </p>
+                        <p><span>
+                            Mi principal característica es la pronto adquisición de nuevos conocimientos para mantenerme al día en el diseño grafico, diseño web, diseño editorial y animación. Por lo tanto ideo soluciones 100% dedicadas a tu proyecto; ya sea tu sitio web, tu marca o lo que necesites.</span>
+                        </p>
+                        <div id="contratame2">
+                            <p>CONTRÁTAME</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="containerServicios">
+                    <h3>Mis servicios...</h3>
+                    <div class="accordion">
+                        <div class="accordion-item" id="question1">
+                            <a class="accordion-link" href="#question1">
+                                Diseño Web
+                                <svg  class = "iconos" id="add" width="9" height="9" stroke="white" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 0L4.5 9M9 4.5L0 4.5" />
+                                </svg>  
+                                <svg class = "iconos" width="9" height="1" stroke="black" viewBox="0 0 9 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line id="Line 2" x1="9" y1="0.5" x2="-4.37114e-08" y2="0.499999" />
+                                </svg>
+                            </a>
+                            <div class="answer">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item" id="question2">
+                            <a class="accordion-link" href="#question2">
+                                Diseño Gráfico
+                                <svg  class = "iconos" id="add" width="9" height="9" stroke="white" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 0L4.5 9M9 4.5L0 4.5" />
+                                    </svg>  
+                                    <svg class = "iconos" width="9" height="1" stroke="black" viewBox="0 0 9 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line id="Line 2" x1="9" y1="0.5" x2="-4.37114e-08" y2="0.499999" />
+                                </svg> 
+                            </a>
+                            <div class="answer">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item" id="question3">
+                            <a class="accordion-link" href="#question3">
+                                Multimedia
+                                <svg  class = "iconos" id="add" width="9" height="9" stroke="white" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 0L4.5 9M9 4.5L0 4.5" />
+                                        </svg>  
+                                        <svg class = "iconos" width="9" height="1" stroke="black" viewBox="0 0 9 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line id="Line 2" x1="9" y1="0.5" x2="-4.37114e-08" y2="0.499999" />
+                                    </svg> 
+                            </a>    
+                            <div class="answer">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Begin containerServicios pasos-->
+                <div class="containerServicios pasos">
+                    <h3>Cómo lo hago...</h3>
+                    <div class="accordion">
+                        <div class="accordion-item" id="question4">
+                            <a class="accordion-link" href="#question4">
+                                Previa
+                                <svg  class = "iconos" id="add" width="9" height="9" stroke="white" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 0L4.5 9M9 4.5L0 4.5" />
+                                </svg>  
+                                <svg class = "iconos" width="9" height="1" stroke="black" viewBox="0 0 9 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line id="Line 2" x1="9" y1="0.5" x2="-4.37114e-08" y2="0.499999" />
+                                </svg>
+                            </a>
+                            <div class="answer">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item" id="question5">
+                            <a class="accordion-link" href="#question5">
+                                Análisis
+                                <svg  class = "iconos" id="add" width="9" height="9" stroke="white" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 0L4.5 9M9 4.5L0 4.5" />
+                                    </svg>  
+                                    <svg class = "iconos" width="9" height="1" stroke="black" viewBox="0 0 9 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line id="Line 2" x1="9" y1="0.5" x2="-4.37114e-08" y2="0.499999" />
+                                </svg> 
+                            </a>
+                            <div class="answer">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item" id="question6">
+                            <a class="accordion-link" href="#question6">
+                                Reunión
+                                <svg  class = "iconos" id="add" width="9" height="9" stroke="white" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 0L4.5 9M9 4.5L0 4.5" />
+                                        </svg>  
+                                        <svg class = "iconos" width="9" height="1" stroke="black" viewBox="0 0 9 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <line id="Line 2" x1="9" y1="0.5" x2="-4.37114e-08" y2="0.499999" />
+                                    </svg> 
+                            </a>    
+                            <div class="answer">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            <!-- End pasos   -->
+            </div>
+        </section>
+<!-- End Sobre Mi   -->
+
+<!-- Begin Habilidades   -->
+        <section class="page habilidades">
+           <div class="containerHabilidades">
+                <div class="habilidad tecnicas">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="programas illustrador">
+                        <p class="p_categoria">Illustrador</p>
+                        <div class="barra">
+                            <div class="barra_back"></div>
+                            <div class="barra_front  b_i">
+                            </div>
+                        </div>
+                        <p class="p_porcentaje">85%</p>
+                    </div>
+                    <div class="programas photoshop">
+                        <p class="p_categoria">Photoshop</p>
+                        <div class="barra">
+                            <div class="barra_back"></div>
+                            <div class="barra_front b_p"></div>
+                        </div>
+                        <p class="p_porcentaje">75%</p>
+                    </div>
+                    <div class="programas photoshop">
+                        <p class="p_categoria">Html5 y Css3</p>
+                        <div class="barra">
+                            <div class="barra_back"></div>
+                            <div class="barra_front b_html"></div>
+                        </div>
+                        <p class="p_porcentaje">68%</p>
+                    </div>
+                    <div class="programas photoshop">
+                        <p class="p_categoria">JavaScript</p>
+                        <div class="barra">
+                            <div class="barra_back"></div>
+                            <div class="barra_front b_j"></div>
+                        </div>
+                        <p class="p_porcentaje">65%</p>
+                    </div>
+                    <div class="programas photoshop">
+                        <p class="p_categoria">Indesign</p>
+                        <div class="barra">
+                            <div class="barra_back"></div>
+                            <div class="barra_front b_ind"></div>
+                        </div>
+                        <p class="p_porcentaje">60%</p>
+                    </div>
+                    <div class="programas photoshop">
+                        <p class="p_categoria">After Effects</p>
+                        <div class="barra">
+                            <div class="barra_back"></div>
+                            <div class="barra_front b_a"></div>
+                        </div>
+                        <p class="p_porcentaje">50%</p>
+                    </div>
+                    <div class="programas photoshop">
+                        <p class="p_categoria">Premiere</p>
+                        <div class="barra">
+                            <div class="barra_back"></div>
+                            <div class="barra_front b_pr"></div>
+                        </div>
+                        <p class="p_porcentaje">55%</p>
+                    </div>
+                </div>
+                
+                <div class="habilidad conocimientos">
+                    <h3 class="h3">Conocimientos</h3>
+                    <div class="blender primeraClase">
+                        <div class="foco">
+                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="icon-foco 2" clip-path="url(#clip0)">
+                                <g id="Group">
+                                <path id="Vector" d="M13.3936 47.3666C13.3936 44.1 13.3936 40.8333 13.3936 37.24C14.3736 37.24 15.0269 36.9133 16.0069 36.9133C16.6602 32.9933 14.3736 29.4 12.0869 26.46C8.1669 20.9066 8.1669 15.3533 11.1069 9.4733C14.0469 3.91997 20.2536 0.979965 26.1336 1.6333C32.6669 2.6133 36.9136 6.20663 38.8736 12.74C40.5069 17.64 39.2002 22.2133 36.5869 26.46C35.2802 28.42 34.3002 30.38 33.3202 32.6666C32.6669 33.9733 32.9936 35.6066 32.6669 36.9133C33.9736 36.9133 34.9536 36.9133 35.9336 37.24C35.9336 40.5066 35.9336 43.7733 35.9336 47.3666C28.7469 47.3666 21.2336 47.3666 13.3936 47.3666ZM30.3802 37.24C30.7069 32.6666 32.0136 28.7466 34.6269 25.1533C38.8736 19.6 37.8936 12.0866 32.9936 7.5133C28.0936 3.26663 20.5802 3.26663 16.0069 7.83997C11.1069 12.4133 10.4536 19.6 14.7002 25.1533C15.6802 26.46 16.6602 28.0933 17.3136 29.7266C18.2936 32.0133 18.6202 34.3 19.6002 36.9133C22.8669 37.24 26.4602 37.24 30.3802 37.24ZM33.6469 44.7533C33.6469 43.12 33.6469 41.4866 33.6469 39.8533C27.7669 39.8533 21.8869 39.8533 16.3336 39.8533C16.3336 41.4866 16.3336 43.12 16.3336 44.7533C21.8869 44.7533 27.7669 44.7533 33.6469 44.7533Z" fill="#FF1010"/>
+                                <g id="rayo" fill="#FF1010">
+                                <path id="Vector_2" d="M22.8669 33.9734C22.5402 33.9734 22.5402 33.9734 22.2136 33.9734C21.8869 33.3201 21.5602 32.6667 21.8869 32.3401L27.1136 22.2134H19.9269C19.6002 22.2134 19.2736 21.8867 18.9469 21.5601C18.6202 21.2334 18.6202 20.9067 18.9469 20.5801L24.1736 8.82006C24.5002 8.16673 25.1536 7.84006 25.4802 8.16673C25.8069 8.49339 26.1336 9.14673 25.8069 9.47339L21.5602 19.9267H28.7469C29.0736 19.9267 29.4002 20.2534 29.7269 20.5801C30.0536 20.9067 30.0536 21.2334 29.7269 21.5601L23.8469 33.3201C23.8469 33.6467 23.1936 33.9734 22.8669 33.9734Z" />
+                                </g>
+                                </g>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="49" height="49" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                        <p class="p_cono">Blender (modelado 3D)</p>
+                    </div>
+                    <div class="blender">
+                        <div class="foco">
+                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="icon-foco 2" clip-path="url(#clip0)">
+                                <g id="Group">
+                                <path id="Vector" d="M13.3936 47.3666C13.3936 44.1 13.3936 40.8333 13.3936 37.24C14.3736 37.24 15.0269 36.9133 16.0069 36.9133C16.6602 32.9933 14.3736 29.4 12.0869 26.46C8.1669 20.9066 8.1669 15.3533 11.1069 9.4733C14.0469 3.91997 20.2536 0.979965 26.1336 1.6333C32.6669 2.6133 36.9136 6.20663 38.8736 12.74C40.5069 17.64 39.2002 22.2133 36.5869 26.46C35.2802 28.42 34.3002 30.38 33.3202 32.6666C32.6669 33.9733 32.9936 35.6066 32.6669 36.9133C33.9736 36.9133 34.9536 36.9133 35.9336 37.24C35.9336 40.5066 35.9336 43.7733 35.9336 47.3666C28.7469 47.3666 21.2336 47.3666 13.3936 47.3666ZM30.3802 37.24C30.7069 32.6666 32.0136 28.7466 34.6269 25.1533C38.8736 19.6 37.8936 12.0866 32.9936 7.5133C28.0936 3.26663 20.5802 3.26663 16.0069 7.83997C11.1069 12.4133 10.4536 19.6 14.7002 25.1533C15.6802 26.46 16.6602 28.0933 17.3136 29.7266C18.2936 32.0133 18.6202 34.3 19.6002 36.9133C22.8669 37.24 26.4602 37.24 30.3802 37.24ZM33.6469 44.7533C33.6469 43.12 33.6469 41.4866 33.6469 39.8533C27.7669 39.8533 21.8869 39.8533 16.3336 39.8533C16.3336 41.4866 16.3336 43.12 16.3336 44.7533C21.8869 44.7533 27.7669 44.7533 33.6469 44.7533Z" fill="#FF1010"/>
+                                <g id="rayo" fill="#FF1010">
+                                <path id="Vector_2" d="M22.8669 33.9734C22.5402 33.9734 22.5402 33.9734 22.2136 33.9734C21.8869 33.3201 21.5602 32.6667 21.8869 32.3401L27.1136 22.2134H19.9269C19.6002 22.2134 19.2736 21.8867 18.9469 21.5601C18.6202 21.2334 18.6202 20.9067 18.9469 20.5801L24.1736 8.82006C24.5002 8.16673 25.1536 7.84006 25.4802 8.16673C25.8069 8.49339 26.1336 9.14673 25.8069 9.47339L21.5602 19.9267H28.7469C29.0736 19.9267 29.4002 20.2534 29.7269 20.5801C30.0536 20.9067 30.0536 21.2334 29.7269 21.5601L23.8469 33.3201C23.8469 33.6467 23.1936 33.9734 22.8669 33.9734Z" />
+                                </g>
+                                </g>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="49" height="49" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                        <p class="p_cono">Unity (videojuegos)</p>
+                    </div>
+                    <div class="blender">
+                        <div class="foco">
+                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="icon-foco 2" clip-path="url(#clip0)">
+                                <g id="Group">
+                                <path id="Vector" d="M13.3936 47.3666C13.3936 44.1 13.3936 40.8333 13.3936 37.24C14.3736 37.24 15.0269 36.9133 16.0069 36.9133C16.6602 32.9933 14.3736 29.4 12.0869 26.46C8.1669 20.9066 8.1669 15.3533 11.1069 9.4733C14.0469 3.91997 20.2536 0.979965 26.1336 1.6333C32.6669 2.6133 36.9136 6.20663 38.8736 12.74C40.5069 17.64 39.2002 22.2133 36.5869 26.46C35.2802 28.42 34.3002 30.38 33.3202 32.6666C32.6669 33.9733 32.9936 35.6066 32.6669 36.9133C33.9736 36.9133 34.9536 36.9133 35.9336 37.24C35.9336 40.5066 35.9336 43.7733 35.9336 47.3666C28.7469 47.3666 21.2336 47.3666 13.3936 47.3666ZM30.3802 37.24C30.7069 32.6666 32.0136 28.7466 34.6269 25.1533C38.8736 19.6 37.8936 12.0866 32.9936 7.5133C28.0936 3.26663 20.5802 3.26663 16.0069 7.83997C11.1069 12.4133 10.4536 19.6 14.7002 25.1533C15.6802 26.46 16.6602 28.0933 17.3136 29.7266C18.2936 32.0133 18.6202 34.3 19.6002 36.9133C22.8669 37.24 26.4602 37.24 30.3802 37.24ZM33.6469 44.7533C33.6469 43.12 33.6469 41.4866 33.6469 39.8533C27.7669 39.8533 21.8869 39.8533 16.3336 39.8533C16.3336 41.4866 16.3336 43.12 16.3336 44.7533C21.8869 44.7533 27.7669 44.7533 33.6469 44.7533Z" fill="#FF1010"/>
+                                <g id="rayo" fill="#FF1010">
+                                <path id="Vector_2" d="M22.8669 33.9734C22.5402 33.9734 22.5402 33.9734 22.2136 33.9734C21.8869 33.3201 21.5602 32.6667 21.8869 32.3401L27.1136 22.2134H19.9269C19.6002 22.2134 19.2736 21.8867 18.9469 21.5601C18.6202 21.2334 18.6202 20.9067 18.9469 20.5801L24.1736 8.82006C24.5002 8.16673 25.1536 7.84006 25.4802 8.16673C25.8069 8.49339 26.1336 9.14673 25.8069 9.47339L21.5602 19.9267H28.7469C29.0736 19.9267 29.4002 20.2534 29.7269 20.5801C30.0536 20.9067 30.0536 21.2334 29.7269 21.5601L23.8469 33.3201C23.8469 33.6467 23.1936 33.9734 22.8669 33.9734Z" />
+                                </g>
+                                </g>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="49" height="49" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                        <p class="p_cono">Fotografía</p>
+                    </div>
+                    <div class="blender">
+                        <div class="foco">
+                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="icon-foco 2" clip-path="url(#clip0)">
+                                <g id="Group">
+                                <path id="Vector" d="M13.3936 47.3666C13.3936 44.1 13.3936 40.8333 13.3936 37.24C14.3736 37.24 15.0269 36.9133 16.0069 36.9133C16.6602 32.9933 14.3736 29.4 12.0869 26.46C8.1669 20.9066 8.1669 15.3533 11.1069 9.4733C14.0469 3.91997 20.2536 0.979965 26.1336 1.6333C32.6669 2.6133 36.9136 6.20663 38.8736 12.74C40.5069 17.64 39.2002 22.2133 36.5869 26.46C35.2802 28.42 34.3002 30.38 33.3202 32.6666C32.6669 33.9733 32.9936 35.6066 32.6669 36.9133C33.9736 36.9133 34.9536 36.9133 35.9336 37.24C35.9336 40.5066 35.9336 43.7733 35.9336 47.3666C28.7469 47.3666 21.2336 47.3666 13.3936 47.3666ZM30.3802 37.24C30.7069 32.6666 32.0136 28.7466 34.6269 25.1533C38.8736 19.6 37.8936 12.0866 32.9936 7.5133C28.0936 3.26663 20.5802 3.26663 16.0069 7.83997C11.1069 12.4133 10.4536 19.6 14.7002 25.1533C15.6802 26.46 16.6602 28.0933 17.3136 29.7266C18.2936 32.0133 18.6202 34.3 19.6002 36.9133C22.8669 37.24 26.4602 37.24 30.3802 37.24ZM33.6469 44.7533C33.6469 43.12 33.6469 41.4866 33.6469 39.8533C27.7669 39.8533 21.8869 39.8533 16.3336 39.8533C16.3336 41.4866 16.3336 43.12 16.3336 44.7533C21.8869 44.7533 27.7669 44.7533 33.6469 44.7533Z" fill="#FF1010"/>
+                                <g id="rayo" fill="#FF1010">
+                                <path id="Vector_2" d="M22.8669 33.9734C22.5402 33.9734 22.5402 33.9734 22.2136 33.9734C21.8869 33.3201 21.5602 32.6667 21.8869 32.3401L27.1136 22.2134H19.9269C19.6002 22.2134 19.2736 21.8867 18.9469 21.5601C18.6202 21.2334 18.6202 20.9067 18.9469 20.5801L24.1736 8.82006C24.5002 8.16673 25.1536 7.84006 25.4802 8.16673C25.8069 8.49339 26.1336 9.14673 25.8069 9.47339L21.5602 19.9267H28.7469C29.0736 19.9267 29.4002 20.2534 29.7269 20.5801C30.0536 20.9067 30.0536 21.2334 29.7269 21.5601L23.8469 33.3201C23.8469 33.6467 23.1936 33.9734 22.8669 33.9734Z" />
+                                </g>
+                                </g>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="49" height="49" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                        <p class="p_cono">Ilustración 2D</p>
+                    </div>
+                    <div class="blender">
+                        <div class="foco">
+                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="icon-foco 2" clip-path="url(#clip0)">
+                                <g id="Group">
+                                <path id="Vector" d="M13.3936 47.3666C13.3936 44.1 13.3936 40.8333 13.3936 37.24C14.3736 37.24 15.0269 36.9133 16.0069 36.9133C16.6602 32.9933 14.3736 29.4 12.0869 26.46C8.1669 20.9066 8.1669 15.3533 11.1069 9.4733C14.0469 3.91997 20.2536 0.979965 26.1336 1.6333C32.6669 2.6133 36.9136 6.20663 38.8736 12.74C40.5069 17.64 39.2002 22.2133 36.5869 26.46C35.2802 28.42 34.3002 30.38 33.3202 32.6666C32.6669 33.9733 32.9936 35.6066 32.6669 36.9133C33.9736 36.9133 34.9536 36.9133 35.9336 37.24C35.9336 40.5066 35.9336 43.7733 35.9336 47.3666C28.7469 47.3666 21.2336 47.3666 13.3936 47.3666ZM30.3802 37.24C30.7069 32.6666 32.0136 28.7466 34.6269 25.1533C38.8736 19.6 37.8936 12.0866 32.9936 7.5133C28.0936 3.26663 20.5802 3.26663 16.0069 7.83997C11.1069 12.4133 10.4536 19.6 14.7002 25.1533C15.6802 26.46 16.6602 28.0933 17.3136 29.7266C18.2936 32.0133 18.6202 34.3 19.6002 36.9133C22.8669 37.24 26.4602 37.24 30.3802 37.24ZM33.6469 44.7533C33.6469 43.12 33.6469 41.4866 33.6469 39.8533C27.7669 39.8533 21.8869 39.8533 16.3336 39.8533C16.3336 41.4866 16.3336 43.12 16.3336 44.7533C21.8869 44.7533 27.7669 44.7533 33.6469 44.7533Z" fill="#FF1010"/>
+                                <g id="rayo" fill="#FF1010">
+                                <path id="Vector_2" d="M22.8669 33.9734C22.5402 33.9734 22.5402 33.9734 22.2136 33.9734C21.8869 33.3201 21.5602 32.6667 21.8869 32.3401L27.1136 22.2134H19.9269C19.6002 22.2134 19.2736 21.8867 18.9469 21.5601C18.6202 21.2334 18.6202 20.9067 18.9469 20.5801L24.1736 8.82006C24.5002 8.16673 25.1536 7.84006 25.4802 8.16673C25.8069 8.49339 26.1336 9.14673 25.8069 9.47339L21.5602 19.9267H28.7469C29.0736 19.9267 29.4002 20.2534 29.7269 20.5801C30.0536 20.9067 30.0536 21.2334 29.7269 21.5601L23.8469 33.3201C23.8469 33.6467 23.1936 33.9734 22.8669 33.9734Z" />
+                                </g>
+                                </g>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="49" height="49" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                        <p class="p_cono">Diseño Web</p>
+                    </div>
+                    <div class="blender">
+                        <div class="foco">
+                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="icon-foco 2" clip-path="url(#clip0)">
+                                <g id="Group">
+                                <path id="Vector" d="M13.3936 47.3666C13.3936 44.1 13.3936 40.8333 13.3936 37.24C14.3736 37.24 15.0269 36.9133 16.0069 36.9133C16.6602 32.9933 14.3736 29.4 12.0869 26.46C8.1669 20.9066 8.1669 15.3533 11.1069 9.4733C14.0469 3.91997 20.2536 0.979965 26.1336 1.6333C32.6669 2.6133 36.9136 6.20663 38.8736 12.74C40.5069 17.64 39.2002 22.2133 36.5869 26.46C35.2802 28.42 34.3002 30.38 33.3202 32.6666C32.6669 33.9733 32.9936 35.6066 32.6669 36.9133C33.9736 36.9133 34.9536 36.9133 35.9336 37.24C35.9336 40.5066 35.9336 43.7733 35.9336 47.3666C28.7469 47.3666 21.2336 47.3666 13.3936 47.3666ZM30.3802 37.24C30.7069 32.6666 32.0136 28.7466 34.6269 25.1533C38.8736 19.6 37.8936 12.0866 32.9936 7.5133C28.0936 3.26663 20.5802 3.26663 16.0069 7.83997C11.1069 12.4133 10.4536 19.6 14.7002 25.1533C15.6802 26.46 16.6602 28.0933 17.3136 29.7266C18.2936 32.0133 18.6202 34.3 19.6002 36.9133C22.8669 37.24 26.4602 37.24 30.3802 37.24ZM33.6469 44.7533C33.6469 43.12 33.6469 41.4866 33.6469 39.8533C27.7669 39.8533 21.8869 39.8533 16.3336 39.8533C16.3336 41.4866 16.3336 43.12 16.3336 44.7533C21.8869 44.7533 27.7669 44.7533 33.6469 44.7533Z" fill="#FF1010"/>
+                                <g id="rayo" fill="#FF1010">
+                                <path id="Vector_2" d="M22.8669 33.9734C22.5402 33.9734 22.5402 33.9734 22.2136 33.9734C21.8869 33.3201 21.5602 32.6667 21.8869 32.3401L27.1136 22.2134H19.9269C19.6002 22.2134 19.2736 21.8867 18.9469 21.5601C18.6202 21.2334 18.6202 20.9067 18.9469 20.5801L24.1736 8.82006C24.5002 8.16673 25.1536 7.84006 25.4802 8.16673C25.8069 8.49339 26.1336 9.14673 25.8069 9.47339L21.5602 19.9267H28.7469C29.0736 19.9267 29.4002 20.2534 29.7269 20.5801C30.0536 20.9067 30.0536 21.2334 29.7269 21.5601L23.8469 33.3201C23.8469 33.6467 23.1936 33.9734 22.8669 33.9734Z" />
+                                </g>
+                                </g>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="49" height="49" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                        <p class="p_cono">Animación 2D</p>
+                    </div>
+                    <div class="blender">
+                        <div class="foco">
+                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="icon-foco 2" clip-path="url(#clip0)">
+                                <g id="Group">
+                                <path id="Vector" d="M13.3936 47.3666C13.3936 44.1 13.3936 40.8333 13.3936 37.24C14.3736 37.24 15.0269 36.9133 16.0069 36.9133C16.6602 32.9933 14.3736 29.4 12.0869 26.46C8.1669 20.9066 8.1669 15.3533 11.1069 9.4733C14.0469 3.91997 20.2536 0.979965 26.1336 1.6333C32.6669 2.6133 36.9136 6.20663 38.8736 12.74C40.5069 17.64 39.2002 22.2133 36.5869 26.46C35.2802 28.42 34.3002 30.38 33.3202 32.6666C32.6669 33.9733 32.9936 35.6066 32.6669 36.9133C33.9736 36.9133 34.9536 36.9133 35.9336 37.24C35.9336 40.5066 35.9336 43.7733 35.9336 47.3666C28.7469 47.3666 21.2336 47.3666 13.3936 47.3666ZM30.3802 37.24C30.7069 32.6666 32.0136 28.7466 34.6269 25.1533C38.8736 19.6 37.8936 12.0866 32.9936 7.5133C28.0936 3.26663 20.5802 3.26663 16.0069 7.83997C11.1069 12.4133 10.4536 19.6 14.7002 25.1533C15.6802 26.46 16.6602 28.0933 17.3136 29.7266C18.2936 32.0133 18.6202 34.3 19.6002 36.9133C22.8669 37.24 26.4602 37.24 30.3802 37.24ZM33.6469 44.7533C33.6469 43.12 33.6469 41.4866 33.6469 39.8533C27.7669 39.8533 21.8869 39.8533 16.3336 39.8533C16.3336 41.4866 16.3336 43.12 16.3336 44.7533C21.8869 44.7533 27.7669 44.7533 33.6469 44.7533Z" fill="#FF1010"/>
+                                <g id="rayo" fill="#FF1010">
+                                <path id="Vector_2" d="M22.8669 33.9734C22.5402 33.9734 22.5402 33.9734 22.2136 33.9734C21.8869 33.3201 21.5602 32.6667 21.8869 32.3401L27.1136 22.2134H19.9269C19.6002 22.2134 19.2736 21.8867 18.9469 21.5601C18.6202 21.2334 18.6202 20.9067 18.9469 20.5801L24.1736 8.82006C24.5002 8.16673 25.1536 7.84006 25.4802 8.16673C25.8069 8.49339 26.1336 9.14673 25.8069 9.47339L21.5602 19.9267H28.7469C29.0736 19.9267 29.4002 20.2534 29.7269 20.5801C30.0536 20.9067 30.0536 21.2334 29.7269 21.5601L23.8469 33.3201C23.8469 33.6467 23.1936 33.9734 22.8669 33.9734Z" />
+                                </g>
+                                </g>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="49" height="49" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                        <p class="p_cono">Base de datos</p>
+                    </div>
+                </div>
+
+            <!--personales -->
+                <div class="habilidad personales">
+                    <h3>Habilidades Personales</h3>
+                    <div class="text_personales">
+                        <p >Todas estas características constituyen para mi una base sólida, en lo que puedo apoyarme para solvertar con éxito, cualquier desafio que se presente.</p>
+                    </div>
+                    <div class="contentRueda">
+                        <div id="cualidades" class="rueda">
+                            <div class="card c0">
+                                Creatividad
+                            </div>
+                            <div class="card c1">
+                                Responsabilidad
+                            </div>
+                            <div class="card c2">
+                                Honestidad
+                            </div>
+                            <div class="card c3">
+                                Constante aprendizaje
+                            </div>
+                            <div class="card c4">
+                                Detallista
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            <!--End personales -->
+
+            <!--Begin Hobbies -->
+                <div class="habilidad hobbies">
+                    <h3>Hobbies</h3>
+                    <div class="items caminata">
+                        <svg width="145" height="145" viewBox="0 0 145 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="icon-caminar 1">
+                            <g id="Group">
+                            <g id="Group_2">
+                            <g id="humano">
+                            <path id="Vector" d="M65.2493 82.1662C62.8326 80.3537 64.0409 77.937 62.2284 75.5204C61.6243 74.9162 61.0201 74.312 61.0201 73.1037C60.4159 72.4995 59.2076 71.8954 57.3951 71.2912C56.1868 70.687 54.3743 70.687 53.1659 71.2912C52.5618 71.2912 51.9576 70.687 51.3534 70.687C48.3326 68.8745 45.9159 66.4579 44.7076 63.437C44.7076 62.8329 44.1034 62.2287 44.1034 61.6245C44.1034 61.6245 44.1034 61.6245 44.1034 61.0204C42.8951 59.812 42.2909 57.9995 41.0826 56.7912C40.4784 55.5829 39.2701 54.9787 38.0618 54.3745C37.4576 54.3745 37.4576 53.7704 36.8534 53.7704C36.8534 53.1662 36.8534 53.1662 37.4576 52.562C39.2701 51.9579 39.8743 50.7495 40.4784 49.5412C40.4784 48.937 41.0826 48.937 41.0826 48.3329C41.0826 47.7287 41.0826 47.1245 41.0826 46.5204C41.0826 45.9162 40.4784 44.7079 40.4784 44.1037C40.4784 42.8954 41.0826 41.0829 39.8743 39.8745C39.2701 39.2704 39.8743 38.6662 38.6659 38.6662C37.4576 37.4579 36.8534 38.6662 35.6451 38.6662C33.8326 38.6662 32.6243 39.2704 31.4159 40.4787C31.4159 40.4787 31.4159 40.4787 30.8118 40.4787C30.2076 41.0829 29.6034 41.0829 29.6034 42.2912C30.2076 43.4995 30.2076 44.7079 30.8118 45.9162C30.8118 46.5204 31.4159 47.1245 30.8118 47.7287C29.6034 47.7287 30.2076 48.937 30.8118 49.5412C31.4159 50.1454 31.4159 50.1454 32.0201 50.7495C32.6243 51.3537 33.2284 51.9579 33.8326 52.562L34.4368 53.1662C34.4368 53.1662 33.8326 53.1662 33.8326 53.7704C32.6243 53.7704 30.8118 53.7704 29.6034 54.3745C25.9784 54.3745 23.5618 54.3745 21.1451 56.7912C18.7284 58.6037 17.5201 60.4162 17.5201 63.437C17.5201 65.2495 17.5201 66.4579 17.5201 68.2704C17.5201 68.8745 17.5201 70.0829 16.9159 70.687C16.3118 71.8954 15.7076 73.7079 16.3118 75.5204C16.3118 76.1245 16.9159 76.7287 17.5201 76.7287C18.1243 76.7287 18.1243 76.1245 18.7284 76.1245C19.3326 76.1245 19.3326 75.5204 19.9368 76.1245H20.5409C21.1451 74.9162 21.1451 73.1037 20.5409 71.8954C20.5409 71.2912 19.9368 70.687 19.9368 70.0829C19.9368 68.2704 19.9368 66.4579 20.5409 64.6454C20.5409 62.8329 21.7493 61.6245 23.5618 61.6245C24.7701 61.6245 25.3743 61.0204 26.5826 60.4162C27.1868 60.4162 27.1868 60.4162 27.1868 61.0204C25.9784 65.2495 25.3743 69.4787 25.9784 73.7079C25.9784 74.9162 26.5826 76.7287 27.1868 77.937C28.3951 81.562 30.2076 85.187 31.4159 88.812C31.4159 89.4162 31.4159 89.4162 31.4159 90.0204C29.6034 91.8329 27.7909 94.2495 25.9784 96.062C25.3743 96.6662 25.3743 96.6662 25.3743 97.2704V97.8745C23.5618 98.4787 22.9576 99.687 21.7493 100.895C21.1451 101.5 21.1451 101.5 21.7493 102.104C22.9576 103.312 24.1659 103.916 25.3743 105.125C26.5826 105.729 27.1868 106.333 28.3951 106.937C28.9993 106.937 29.6034 106.937 29.6034 106.937C30.2076 106.333 30.2076 105.125 29.6034 104.52C27.7909 103.916 27.7909 102.708 27.1868 100.895C27.1868 100.291 26.5826 100.291 26.5826 99.687C26.5826 99.0829 26.5826 98.4787 26.5826 98.4787C26.5826 98.4787 27.1868 98.4787 27.7909 98.4787C28.3951 98.4787 28.9993 97.8745 28.9993 97.8745C30.2076 96.6662 31.4159 94.8537 32.6243 93.6454C33.2284 93.0412 33.2284 93.0412 33.8326 93.6454C34.4368 95.4579 35.6451 97.8745 36.2493 99.687C36.2493 100.291 36.8534 100.291 37.4576 100.895C37.4576 101.5 38.0618 101.5 38.0618 102.104C37.4576 103.916 38.6659 105.125 39.2701 106.937C39.2701 106.937 39.8743 107.541 40.4784 107.541C42.2909 106.937 44.1034 105.729 45.9159 105.125C46.5201 104.52 47.7284 103.916 48.3326 103.916L48.9368 102.708C48.3326 102.104 47.7284 100.895 47.1243 101.5C45.9159 102.708 44.1034 102.104 42.8951 101.5C42.2909 101.5 42.2909 101.5 41.6868 101.5C41.0826 101.5 41.0826 100.895 40.4784 100.895L41.0826 100.291C41.0826 99.687 41.0826 99.687 41.0826 99.0829C39.8743 96.062 39.2701 93.0412 38.0618 90.6245C38.0618 90.0204 38.0618 89.4162 38.0618 88.812C39.2701 87.6037 39.2701 85.7912 39.2701 84.5829C39.2701 82.1662 39.2701 79.7495 39.2701 77.3329C39.2701 74.9162 39.8743 73.1037 39.8743 70.687C39.8743 68.8745 40.4784 67.062 40.4784 65.2495V64.6454L41.0826 65.2495C41.6868 65.8537 42.2909 66.4579 42.2909 67.062C44.7076 70.0829 47.1243 72.4995 50.7493 74.312C51.3534 74.9162 51.9576 74.9162 52.5618 76.1245C53.1659 77.3329 53.7701 77.937 54.9784 77.937C55.5826 77.937 56.1868 77.937 56.7909 78.5412C57.9993 79.7495 60.4159 79.7495 61.0201 77.937C61.6243 77.3329 61.6243 77.937 61.6243 77.937C64.0409 80.9579 63.4368 83.9787 66.4576 85.7912C68.2701 86.9995 110.562 77.3329 112.374 78.5412V77.937C109.958 74.9162 67.6659 84.5829 65.2493 82.1662ZM34.4368 80.3537C33.8326 80.3537 33.8326 80.3537 34.4368 80.3537C33.8326 79.1454 33.2284 78.5412 32.6243 77.3329C32.6243 76.7287 32.6243 76.7287 32.6243 76.1245C33.2284 76.1245 33.2284 76.1245 33.8326 76.1245L34.4368 76.7287C34.4368 77.3329 34.4368 77.937 34.4368 78.5412C34.4368 79.1454 34.4368 79.7495 34.4368 80.3537ZM36.8534 51.3537C36.2493 51.3537 35.6451 50.7495 35.0409 50.1454C34.4368 49.5412 35.0409 49.5412 35.6451 48.937C36.2493 48.937 36.8534 48.937 37.4576 48.937C38.0618 48.937 38.6659 48.937 38.0618 49.5412C37.4576 50.1454 36.8534 50.7495 36.8534 51.3537Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Oso">
+                            <g id="Group_3">
+                            <path id="Vector_2" d="M126.874 84.5825C126.27 83.3742 125.666 82.77 124.458 81.5617C124.458 77.3325 121.437 74.9159 117.812 73.1034C117.812 71.2909 117.812 71.2909 115.999 70.0825C114.187 70.0825 114.187 71.895 113.583 73.1034C111.166 73.7075 108.145 72.4992 105.729 73.7075C105.124 73.7075 105.124 73.7075 104.52 73.7075C103.916 73.1033 103.312 73.1034 102.708 73.1034C102.104 73.1034 100.895 73.1034 100.895 73.1034C100.291 72.4992 99.6868 73.7075 99.0827 73.1034C97.2702 73.1034 96.0618 73.7075 94.2493 74.9158L93.6452 74.3117C90.6243 74.3117 87.6035 74.3117 83.9785 74.3117C83.3743 74.3117 82.166 74.9158 81.5618 74.9158C79.1452 74.9158 77.3327 76.1242 75.5202 76.7283C73.1035 77.9367 71.291 79.7492 69.4785 82.1658C67.666 83.9783 67.0618 86.395 65.8535 89.4158C65.2493 91.8325 64.6452 94.8533 64.041 97.27C64.041 100.291 64.041 103.312 64.041 106.332C67.666 106.332 70.6868 106.332 73.7077 106.332C73.1035 105.124 72.4993 104.52 71.8952 103.916C72.4993 102.708 73.1035 101.499 73.7077 100.895C74.916 103.312 76.1243 105.124 77.9368 106.937C80.9577 106.937 83.3743 106.937 86.3952 106.937C85.791 106.937 86.3952 105.124 85.1868 105.124C84.5827 105.124 83.3743 103.916 83.9785 102.707C83.9785 102.707 83.3743 102.103 83.3743 101.499C83.3743 100.895 83.3743 100.291 82.7702 99.6867C84.5827 99.6867 85.791 100.291 87.6035 100.291C88.2077 101.499 88.8118 102.103 88.8118 103.312C88.8118 104.52 88.8118 105.728 88.8118 106.937C91.8327 106.937 95.4577 106.937 98.4785 106.937C98.4785 106.937 98.4785 106.937 99.0827 106.332C98.4785 105.728 97.8743 105.124 97.2702 104.52C97.2702 102.103 99.0827 99.6867 99.6868 97.8742C101.499 97.27 99.6868 99.6867 101.499 99.6867C102.104 99.6867 102.708 100.895 103.312 101.499C103.916 102.103 104.52 102.708 105.124 103.916C105.729 104.52 106.333 105.124 106.937 105.728C110.562 105.728 113.583 105.728 116.604 105.728C115.999 105.124 115.395 103.916 114.791 103.916C113.583 103.916 113.583 102.707 113.583 102.103C112.979 99.6867 111.77 97.27 111.166 94.8533C110.562 93.0408 110.562 90.6242 109.958 88.2075C111.77 86.395 112.979 84.5825 115.999 86.395H116.604C118.416 86.395 120.229 86.395 121.437 86.9992C122.645 87.6033 123.854 87.6033 125.062 86.9992C125.666 86.395 126.874 85.7908 127.479 85.1867V84.5825C128.083 85.1867 127.479 85.1867 126.874 84.5825ZM120.229 80.9575C119.624 80.9575 119.02 80.3533 119.02 79.7492C119.02 79.145 119.624 78.5408 120.229 78.5408C120.833 78.5408 121.437 79.145 121.437 79.7492C121.437 80.3533 120.833 80.9575 120.229 80.9575Z" fill="#FF1010"/>
+                            </g>
+                            </g>
+                            </g>
+                            <g id="Group_4">
+                            <path id="Vector_3" d="M72.4996 142.583C33.8329 142.583 2.41626 111.166 2.41626 72.4996C2.41626 33.8329 33.8329 2.41626 72.4996 2.41626C111.166 2.41626 142.583 33.8329 142.583 72.4996C142.583 111.166 111.166 142.583 72.4996 142.583ZM72.4996 9.66626C38.0621 9.66626 9.66626 38.0621 9.66626 72.4996C9.66626 106.937 37.4579 135.333 72.4996 135.333C107.541 135.333 135.333 106.937 135.333 72.4996C135.333 38.0621 106.937 9.66626 72.4996 9.66626Z" fill="#FF1010"/>
+                            </g>
+                            </g>
+                            </g>
+                        </svg>
+                        <p>Caminata</p>
+                    </div> 
+                    <div class="items lectura">
+                        <svg width="145" height="145" viewBox="0 0 145 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="icon-lectura 1">
+                            <g id="Group">
+                            <g id="tipo">
+                            <g id="Group_2">
+                            <path id="Vector" d="M61.0206 93.0415C65.8539 93.0415 71.2914 93.0415 76.1248 93.0415C76.7289 93.0415 77.3331 93.0415 77.3331 93.0415C77.9373 93.6456 77.3331 97.2706 77.3331 97.8748C76.1248 99.0831 75.5206 100.291 74.3123 100.896C72.4998 102.104 71.8956 103.312 71.8956 105.125C71.8956 106.937 71.8956 109.354 71.8956 111.166C71.8956 112.375 71.8956 112.375 70.6873 112.375C65.2498 112.375 59.2081 112.375 53.7706 112.375C53.1664 112.375 52.5623 112.375 52.5623 111.166C52.5623 107.541 52.5623 103.916 52.5623 100.291C52.5623 97.8748 51.3539 96.6665 49.5414 96.6665C47.7289 96.6665 45.9164 96.6665 44.1039 96.6665C44.1039 96.6665 43.4998 96.0623 43.4998 95.4581C43.4998 92.4373 43.4998 93.0415 45.9164 93.0415C50.1456 92.4373 55.5831 93.0415 61.0206 93.0415Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Group_3">
+                            <path id="Vector_2" d="M42.2917 80.3533C42.2917 77.3325 42.2917 74.9158 42.2917 71.895C42.2917 68.27 42.2917 68.27 45.3126 68.27C47.1251 68.27 49.5417 68.27 51.3542 68.27C51.3542 70.0825 51.3542 72.4992 51.3542 74.3117C51.3542 79.7492 51.3542 85.1867 51.3542 90.02C51.3542 91.2283 51.3542 91.2283 50.1459 91.2283C47.7292 91.2283 44.7084 91.2283 42.2917 91.2283C42.2917 88.8117 42.2917 85.7908 42.2917 83.3742C42.2917 82.77 42.2917 81.5617 42.2917 80.3533Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Group_4">
+                            <path id="Vector_3" d="M65.8547 91.8324C62.2297 91.8324 59.2089 91.8324 55.5839 91.8324C55.5839 91.8324 54.9797 91.8324 54.9797 91.2282C54.3755 91.2282 54.9797 90.624 54.9797 90.624C61.6255 90.624 68.2714 90.624 74.9172 90.624C75.5214 90.624 76.1255 90.624 76.7297 90.624C76.7297 90.624 77.3339 90.624 77.3339 91.2282C77.3339 91.8324 76.7297 91.8324 76.7297 91.8324C73.1047 91.8324 69.4797 91.8324 65.8547 91.8324Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Group_5">
+                            <path id="Vector_4" d="M47.1251 67.0612C45.9168 67.0612 44.7084 67.0612 42.8959 67.0612C42.8959 66.457 42.2917 66.457 42.2917 66.457C42.2917 66.457 42.2917 65.8529 42.8959 65.2487C43.5001 64.6445 44.1042 64.6445 44.7084 64.6445C46.5209 64.6445 48.3334 64.6445 50.7501 64.6445C51.3543 64.6445 51.9584 65.2487 51.9584 65.2487C51.9584 65.2487 52.5626 65.8529 52.5626 66.457L51.9584 67.0612C50.1459 67.0612 48.9376 67.0612 47.1251 67.0612Z" fill="#FF1010"/>
+                            </g>
+                            <g id="tipowater">
+                            <g id="Group_6">
+                            <path id="Vector_5" d="M102.708 50.1447L101.5 48.3322C100.896 47.1239 100.292 46.5197 100.292 45.3114C99.6875 44.103 99.0833 43.4989 98.4791 42.2905C97.875 43.4989 97.2708 44.103 96.6666 45.3114C96.0625 45.9155 95.4583 46.5197 96.6666 47.1239L102.708 50.1447Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Group 1">
+                            <g id="Group_7">
+                            <path id="Vector_6" d="M79.7497 77.9361C76.7289 78.5403 75.5206 76.7278 74.3122 74.9153C71.8956 71.2903 69.4789 67.0611 66.458 63.4361C65.2497 62.2278 65.2497 59.8111 65.8539 57.9986C66.458 56.1861 70.0831 55.5819 71.2914 56.7903C73.7081 58.6028 75.5206 61.6236 77.3331 64.6444C78.5414 66.4569 79.7497 68.2694 80.958 70.0819C82.7705 68.8736 84.583 68.2694 85.7914 67.0611C87.6039 65.8528 89.4164 64.6444 91.2289 63.4361C92.4372 62.2278 93.6456 62.2278 95.4581 62.2278C96.6664 62.2278 98.4789 64.0403 98.4789 64.6444C99.083 65.8528 97.8747 67.6653 96.6664 68.8736C92.4372 71.8944 88.208 74.9153 83.9789 77.3319C82.7705 77.9361 81.5622 77.9361 79.7497 77.9361Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Group_8">
+                            <path id="Vector_7" d="M101.5 50.7493C98.4793 49.541 96.0627 48.3327 93.0418 46.5202C93.0418 46.5202 92.4377 46.5202 91.8335 45.916C91.2293 46.5202 91.2293 46.5202 91.2293 47.1244C89.4168 51.3535 87.0002 55.5827 85.1877 59.2077C83.9793 61.6244 84.5835 62.2285 87.0002 62.8327C88.2085 62.8327 88.8127 62.8327 89.4168 62.2285C91.2293 61.0202 93.0418 59.2077 95.4585 61.0202C96.6668 61.6244 97.271 61.6243 97.8752 60.416C99.0835 57.9993 100.292 54.9785 101.5 52.5618C102.708 51.3535 102.104 50.7493 101.5 50.7493Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Group_9">
+                            <path id="Vector_8" d="M72.5003 52.5617C78.1728 52.5617 82.7712 47.9633 82.7712 42.2909C82.7712 36.6184 78.1728 32.02 72.5003 32.02C66.8279 32.02 62.2295 36.6184 62.2295 42.2909C62.2295 47.9633 66.8279 52.5617 72.5003 52.5617Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Group_10">
+                            <path id="Vector_9" d="M94.854 106.937C94.854 103.916 94.854 100.895 94.854 97.8744C94.854 94.8535 94.854 91.8327 94.854 88.8119C94.854 85.791 93.6457 83.9785 91.8332 82.166C90.6249 80.9577 89.4165 80.3535 87.604 80.3535C83.3749 80.3535 79.1457 80.3535 74.3124 80.3535C73.104 80.3535 72.4999 79.7494 73.104 79.1452C74.3124 77.9369 73.104 76.7285 73.104 75.5202C72.4999 74.3119 71.2915 73.7077 70.6874 72.4994C68.8749 69.4785 66.4582 66.4577 64.6457 62.8327C64.6457 62.2285 64.0415 58.6035 67.0624 56.791C67.6665 56.791 67.6665 56.791 68.2707 56.791C70.6874 56.791 71.8957 57.3952 73.104 59.2077C73.7082 60.416 74.9165 61.6244 76.1249 62.8327C76.729 63.4369 76.729 64.041 77.3332 64.6452C77.3332 64.041 77.3332 63.4369 77.3332 62.8327C77.3332 61.0202 76.729 59.8119 75.5207 58.6035C74.9165 57.9994 74.3124 57.3952 73.7082 56.791C70.6874 54.3743 65.854 54.3743 62.229 56.791C60.4165 56.791 60.4165 59.2077 59.8123 61.6244C58.604 65.2494 57.3957 68.2702 56.7915 71.8952C56.1873 75.5202 54.3749 78.541 54.979 82.7702C55.5832 85.1869 57.9999 88.8119 60.4165 89.416C62.8332 90.0202 64.6457 90.0202 67.0624 90.0202C72.4999 90.0202 77.3332 90.0202 82.7707 90.0202C83.979 90.0202 83.979 90.0202 83.979 91.2285C83.979 94.8535 83.979 97.8744 83.979 101.499C83.979 103.916 83.979 105.729 83.979 108.145C83.979 111.166 88.8124 114.187 91.229 112.374C93.0415 111.166 94.854 109.354 94.854 106.937Z" fill="#FF1010"/>
+                            </g>
+                            </g>
+                            </g>
+                            </g>
+                            <g id="Group_11">
+                            <path id="Vector_10" d="M72.4996 142.583C33.8329 142.583 2.41626 111.166 2.41626 72.4996C2.41626 33.8329 33.8329 2.41626 72.4996 2.41626C111.166 2.41626 142.583 33.8329 142.583 72.4996C142.583 111.166 111.166 142.583 72.4996 142.583ZM72.4996 9.66626C38.0621 9.66626 9.66626 38.0621 9.66626 72.4996C9.66626 106.937 37.4579 135.333 72.4996 135.333C107.541 135.333 135.333 106.937 135.333 72.4996C135.333 38.0621 106.937 9.66626 72.4996 9.66626Z" fill="#FF1010"/>
+                            </g>
+                            </g>
+                            </g>
+                            </svg>
+                        <p>Lectura</p>
+                    </div>
+                    <div class="items cine">
+                        <svg width="145" height="145" viewBox="0 0 145 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="icon-cine 1">
+                            <g id="Group">
+                            <path id="Vector" d="M72.4998 142.583C33.8332 142.583 2.4165 111.167 2.4165 72.4998C2.4165 33.8332 33.8332 2.4165 72.4998 2.4165C111.167 2.4165 142.583 33.8332 142.583 72.4998C142.583 111.167 111.167 142.583 72.4998 142.583ZM72.4998 9.66651C38.0623 9.66651 9.66651 38.0623 9.66651 72.4998C9.66651 106.937 37.4582 135.333 72.4998 135.333C107.542 135.333 135.333 106.937 135.333 72.4998C135.333 38.0623 106.937 9.66651 72.4998 9.66651Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Group_2">
+                            <path id="sombrero" d="M103.313 76.1255C94.8547 76.1255 86.3964 75.5213 77.938 74.313C68.8755 73.1047 59.813 71.8963 50.7505 70.0838C44.7089 68.8755 39.2714 67.063 33.2297 65.2505C30.813 64.6463 28.3964 62.8338 26.5839 61.6255C25.3755 61.0213 25.3755 60.4172 24.7714 59.813C24.1672 59.2088 24.1672 58.6047 25.3755 58.6047C27.188 58.6047 29.0005 58.6047 30.2089 58.6047C32.0214 58.6047 33.8339 59.2088 35.0422 59.813C37.4589 60.4172 38.063 59.813 38.6672 57.3963C39.2714 53.7713 39.8755 49.5422 41.0839 45.9172C41.688 42.8963 42.2922 40.4797 42.8964 37.4588C46.5214 27.188 54.3755 21.1463 65.2505 19.938C74.9172 18.7297 83.9797 19.938 92.438 23.563C105.126 29.0005 110.563 39.2713 108.751 52.563C108.146 55.5838 108.146 58.6047 107.542 61.6255C107.542 62.8338 107.542 64.0422 107.542 65.2505C107.542 68.2713 108.146 68.2713 110.563 68.8755C112.98 68.8755 115.396 69.4797 117.813 70.0838C119.021 70.0838 120.23 71.2921 120.23 71.8963C120.23 73.1046 119.021 73.7088 117.813 73.7088C114.188 74.9171 110.563 75.5213 106.334 75.5213C105.73 76.1255 104.521 76.1255 103.313 76.1255Z" fill="#FF1010"/>
+                            <path id="bigote" d="M70.0841 125.063C67.6674 125.063 65.8549 125.063 63.4382 125.063C60.4174 125.063 59.209 123.251 60.4174 120.23C61.0216 118.417 62.2299 116.605 63.4382 115.397C64.6466 114.188 65.8549 113.584 67.6674 114.792C68.8757 115.397 70.0841 115.397 71.2924 114.792C73.1049 114.188 74.3132 114.188 75.5216 115.397C76.7299 117.209 77.9382 119.022 79.1466 120.834C80.3549 123.251 79.1466 125.063 76.1257 125.063C74.9174 125.667 72.5007 125.063 70.0841 125.063Z" fill="#FF1010"/>
+                            </g>
+                            </g>
+                            </svg>                         
+                        <p>Cine</p>
+                    </div> 
+                    <div class="items carpinteria">
+                        <svg width="145" height="145" viewBox="0 0 145 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="icon-madera 1">
+                            <g id="cerrucho">
+                            <path id="Vector" d="M123.854 62.2287C121.437 67.6662 119.02 72.4995 117.208 77.937C116.604 76.7287 116 76.1245 114.791 75.5203C114.187 76.1245 113.583 77.3328 112.979 77.937C112.375 77.3328 111.77 76.7287 111.166 75.5203C110.562 76.1245 109.958 77.3328 109.354 77.937C108.75 77.3328 108.145 76.7287 106.937 75.5203C106.333 76.1245 105.729 77.3328 105.125 78.5412C104.52 77.937 103.916 76.7287 103.312 76.1245C102.708 77.3328 102.104 77.937 101.5 79.1453C100.895 78.5412 100.291 77.3328 99.6871 76.7287C99.0829 77.3328 98.4788 78.5412 97.8746 79.7495C97.2704 78.5412 96.6663 77.937 96.0621 76.7287C95.4579 77.937 94.8538 78.5412 93.6454 79.7495C93.0413 78.5412 93.0413 77.937 91.8329 76.7287C90.6246 78.5412 90.6246 79.1453 89.4163 80.3537C88.8121 79.7495 88.2079 78.5412 87.6038 77.937C86.9996 78.5412 86.3954 79.7495 85.7913 80.3537C85.1871 79.7495 84.5829 78.5412 83.9788 77.937C83.3746 79.1453 82.7704 79.7495 82.1663 80.9578C81.5621 80.3537 80.9579 79.7495 79.7496 78.5412C79.1454 79.7495 78.5413 80.3537 77.9371 81.562C77.3329 80.9578 76.7288 79.7495 76.1246 79.1453C75.5204 80.3537 74.9163 80.9578 74.3121 82.1662C73.7079 81.562 73.1038 80.3537 71.8954 79.7495C71.2913 80.9578 70.6871 81.562 70.0829 82.7703C69.4788 82.1662 68.8746 80.9578 67.6663 80.3537C67.0621 80.9578 66.4579 82.1662 65.8538 83.3745C65.2496 82.1662 64.6454 81.562 64.0413 80.3537C63.4371 81.562 62.8329 82.1662 61.6246 83.3745C61.0204 82.1662 61.0204 81.562 59.8121 79.7495C58.6038 81.562 58.6038 82.1662 57.9996 83.3745C57.3954 82.7703 56.7913 81.562 55.5829 80.9578C54.9788 81.562 54.3746 82.7703 53.7704 83.3745C53.1663 82.7703 52.5621 82.1662 51.9579 81.562H51.3538C48.9371 83.3745 47.1246 85.7912 44.1038 85.187C38.6663 85.187 33.2288 85.187 27.7913 85.187C24.1663 85.187 22.9579 83.9787 23.5621 80.3537C23.5621 79.7495 23.5621 79.1453 24.1663 78.5412C25.3746 72.4995 28.9996 65.8537 20.5413 60.4162C22.9579 59.812 24.1663 59.812 25.3746 59.812C32.0204 59.812 38.6663 59.812 44.7079 59.812C46.5204 59.812 47.7288 60.4162 48.3329 60.4162C50.1454 61.0203 51.3538 61.6245 53.1663 61.6245C74.9163 61.6245 96.0621 61.6245 117.812 61.6245C119.625 62.2287 121.437 62.2287 123.854 62.2287ZM35.6454 80.3537C38.6663 80.9578 39.8746 79.7495 39.8746 76.7287C39.8746 74.312 41.0829 71.2912 41.0829 68.8745C41.0829 67.062 42.8954 64.6453 39.8746 64.6453C37.4579 64.6453 34.4371 63.437 33.8329 67.6662C33.2288 70.687 32.6246 73.7078 32.0204 76.7287C31.4163 79.7495 32.6246 80.9578 35.6454 80.3537Z" fill="#FF1010"/>
+                            </g>
+                            <g id="Group">
+                            <path id="Vector_2" d="M72.4996 142.583C33.8329 142.583 2.41626 111.166 2.41626 72.4996C2.41626 33.8329 33.8329 2.41626 72.4996 2.41626C111.166 2.41626 142.583 33.8329 142.583 72.4996C142.583 111.166 111.166 142.583 72.4996 142.583ZM72.4996 9.66626C38.0621 9.66626 9.66626 38.0621 9.66626 72.4996C9.66626 106.937 37.4579 135.333 72.4996 135.333C107.541 135.333 135.333 106.937 135.333 72.4996C135.333 38.0621 106.937 9.66626 72.4996 9.66626Z" fill="#FF1010"/>
+                            </g>
+                            </g>
+                            </svg>                                             
+                        <p>Carpinteria</p>
+                    </div> 
+                </div>
+           </div>
+        </section>
+<!-- End Habilidades   -->   
+        <section class=" contacto" ></section>
+
+        <div class="pages">
+            <div class="page-1">
+                <h3>01</h3>
+                <svg 
+                    class="slide active"
+                    width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="white"/>
+                </svg> 
+            </div>
+            <div class="page-2">
+                <h3>02</h3>
+                <svg 
+                    class="slide"
+                    width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="white"/>
+                </svg> 
+            </div>
+            <div class="page-3">
+                <h3>03</h3>
+                <svg 
+                    class="slide"
+                    width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="white"/>
+                </svg> 
+            </div>
+            <div class="page-4">
+                <h3>04</h3>
+                <svg 
+                    class="slide"
+                    width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="white"/>
+                </svg> 
+            </div>
+        </div>
+    </main>
+    
+    <div id="contact_form">
+        <form action="contact.php" id="form1" name="form1" method="POST">
+            <div class="close_form">
+                <div class="cruz1"></div>
+                <div class="cruz2"></div>
+            </div>      
+            <h2 id="hablemos"><br/><br/>¡Hablemos!</h2>
+            <p>Cuáles son los objetivos de tu negocio. ¿Qué esperas conseguir con tu web? ¿A qué público va dirigida?</p>
+
+            <input type="text" id="name" name="name" placeholder="Nombre*"/>
+
+            <input type="text" id="email" name="email" placeholder="Mail*"/>
+
+            <input type="text" id="phone" name="phone" placeholder="Teléfono"/>
+
+            <input type="text" id="empresa" name="empresa" placeholder="Nombre de la marca o empresa"/>
+
+            <input type="text"  id="site" name="site" placeholder="Página web actual"/>
+
+            <textarea name="message" id="message" cols="30" rows="3" placeholder="Mensaje"></textarea>
+
+            <input type="submit" name="Submit" id="button" value="ENVIAR" />
+        </form>
+    </div>
+<!-- Begin Footer -->    
+    <footer>
+        <div class="rrss">
+            <div class="flecha">
+                <div class="flecha1"></div>
+                <div class="flecha2"></div>
+            </div>
+            <div class="contactos whatsapp">
+                <span>
+                    <a href="https://url2.cl/beYjJ"  target="_blank">
+                        <svg fill="red" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <title>envelop</title>
+                            <path d="M29 4h-26c-1.65 0-3 1.35-3 3v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-20c0-1.65-1.35-3-3-3zM12.461 17.199l-8.461 6.59v-15.676l8.461 9.086zM5.512 8h20.976l-10.488 7.875-10.488-7.875zM12.79 17.553l3.21 3.447 3.21-3.447 6.58 8.447h-19.579l6.58-8.447zM19.539 17.199l8.461-9.086v15.676l-8.461-6.59z"></path>
+                            </svg>
+                    </a>
+                </span>
+                <div class="content_contactos">
+                    <a href="https://url2.cl/beYjJ"  target="_blank">E-mail</a>
+                    <p>vinicio.71@hotmail.com</p>
+                </div>
+            </div>
+            <div class="contactos whatsapp">
+                <span>
+                    <a href="https://url2.cl/beYjJ"  target="_blank">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <title>whatsapp</title>
+                            <path d="M27.281 4.65c-2.994-3-6.975-4.65-11.219-4.65-8.738 0-15.85 7.112-15.85 15.856 0 2.794 0.731 5.525 2.119 7.925l-2.25 8.219 8.406-2.206c2.319 1.262 4.925 1.931 7.575 1.931h0.006c0 0 0 0 0 0 8.738 0 15.856-7.113 15.856-15.856 0-4.238-1.65-8.219-4.644-11.219zM16.069 29.050v0c-2.369 0-4.688-0.637-6.713-1.837l-0.481-0.288-4.987 1.306 1.331-4.863-0.313-0.5c-1.325-2.094-2.019-4.519-2.019-7.012 0-7.269 5.912-13.181 13.188-13.181 3.519 0 6.831 1.375 9.319 3.862 2.488 2.494 3.856 5.8 3.856 9.325-0.006 7.275-5.919 13.188-13.181 13.188zM23.294 19.175c-0.394-0.2-2.344-1.156-2.706-1.288s-0.625-0.2-0.894 0.2c-0.262 0.394-1.025 1.288-1.256 1.556-0.231 0.262-0.462 0.3-0.856 0.1s-1.675-0.619-3.188-1.969c-1.175-1.050-1.975-2.35-2.206-2.744s-0.025-0.613 0.175-0.806c0.181-0.175 0.394-0.463 0.594-0.694s0.262-0.394 0.394-0.662c0.131-0.262 0.069-0.494-0.031-0.694s-0.894-2.15-1.219-2.944c-0.319-0.775-0.65-0.669-0.894-0.681-0.231-0.012-0.494-0.012-0.756-0.012s-0.694 0.1-1.056 0.494c-0.363 0.394-1.387 1.356-1.387 3.306s1.419 3.831 1.619 4.1c0.2 0.262 2.794 4.269 6.769 5.981 0.944 0.406 1.681 0.65 2.256 0.837 0.95 0.3 1.813 0.256 2.494 0.156 0.762-0.113 2.344-0.956 2.675-1.881s0.331-1.719 0.231-1.881c-0.094-0.175-0.356-0.275-0.756-0.475z"></path>
+                            </svg>
+                            
+                    </a>
+                </span>
+                <div class="content_contactos">
+                    <a href="https://url2.cl/beYjJ"  target="_blank">Whatsapp</a>
+                    <p>099 1425 917</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+<!-- End Footer --> 
+</div>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+    crossorigin="anonymous">
+    </script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+    integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+    crossorigin="anonymous">
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
